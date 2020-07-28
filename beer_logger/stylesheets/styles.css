@@ -1,0 +1,140 @@
+
+body {
+  background-color: #32325b;
+  color: white;
+  margin: 0 auto;
+  padding: 20px 20px;
+  width: 60%;
+}
+
+.home2buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 25vh;
+  text-align: center;
+}
+
+.bg-image {
+  background: url("https://st2.depositphotos.com/1692343/6719/i/450/depositphotos_67196213-stock-photo-assorted-beers-in-a-flight.jpg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  /* background-size: 2500px 1000px; */
+  background-size: 100% 100%;
+}
+
+.bg-imagelogin {
+  background: url("https://images.pond5.com/beer-glass-bubbles-slow-motion-footage-038919172_iconl.jpeg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  /* background-size: 2000px 1000px; */
+  background-size: 100% 100%;
+}
+
+nav {
+  display: block;
+}
+
+.mainformat {
+  background-color: grey;
+  border-style: double;
+}
+
+.welcome {
+  text-align: center;
+  background-color: #32325b;
+  padding: 25px;
+}
+
+.contact-us-page {
+  width: auto;
+}
+
+.btn-block {
+  width: 45%;
+}
+
+.fixed-top {
+  position: absolute;
+}
+
+select option {
+  background-color: beige;
+}
+
+.form-control {
+  background-color: beige;
+}
+
+.form-control-range {
+  background-color: blue;
+  /* -webkit-appearance: none; */
+}
+
+.formlogin {
+  width: 100%;
+  padding: 50px;
+}
+
+.formformpage {
+  width: 90%;
+  padding: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: lightsalmon;
+  color: black;
+}
+
+.nav-tabs .nav-item {
+  color: black;
+}
+
+.nav-tabs .nav-link {
+  background-color: beige;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.navbar-nav mr-auto {
+  width: 100%;
+  /* margin: 0 auto; */
+
+}
+
+h1 {
+  font-family:"Luminari, fantasy";
+  font-size: 100px;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.valueSpan {
+  font-size: 28px;
+}
+
+/* Styles for Logger History Page */
+.beer-entry-img-li {
+  list-style: none;
+}
+
+.beer-entry-img {
+  width: 40%;
+}
+.logo img{
+  display: flex;
+  min-width: 75px;
+  min-height: 75px;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+
+/* End Styles for Logger History Page */
